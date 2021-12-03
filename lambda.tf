@@ -34,7 +34,7 @@ resource "aws_lambda_function" "example" {
  # IAM role which dictates what other AWS services the Lambda function
  # may access.
 resource "aws_iam_role" "lambda_exec" {
-   name = "jsp-serverless_example_lambda"
+   name = "cisco_hashicorp_lambda"
 
    assume_role_policy = <<EOF
 {
