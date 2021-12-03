@@ -15,7 +15,7 @@ provider "aws" {
 }
 
 resource "aws_lambda_function" "example" {
-   function_name = "ServerlessExample"
+   function_name = "CiscoHashicorpExample"
    # The bucket name as created earlier with "aws s3api create-bucket"
    s3_bucket = "cisco-hashicorp-code-bucket"
    #s3_key    = "v${var.code_version}/example.zip"
